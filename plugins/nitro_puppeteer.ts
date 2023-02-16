@@ -46,6 +46,10 @@ class EIBrowserInstance {
 
       await this.page.goto(this.url)
       await this.page.setViewport({ width: 1920, height: 1080 })
+
+      this.instance.on("disconnected", () => {
+        this.launch()
+      })
     }
   }
 
