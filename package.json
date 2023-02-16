@@ -33,11 +33,15 @@
     "vue-eslint-parser": "^9.1.0"
   },
   "dependencies": {
+    "@fullcalendar/core": "^6.1.4",
+    "@fullcalendar/daygrid": "^6.1.4",
+    "@fullcalendar/vue3": "^6.1.4",
+    "@popperjs/core": "^2.11.6",
+    "bootstrap": "^5.2.3",
+    "bootstrap-icons": "^1.10.3",
+    "bootstrap-vue-next": "^0.7.3",
     "puppeteer": "^19.7.1",
-    "puppeteer-core": "^19.7.1",
+    "sass": "^1.58.1",
     "wait": "^0.4.2"
-  },
-  "puppeteer": {
-    "cacheDirectory": "./.cache/puppeteer"
   }
 }

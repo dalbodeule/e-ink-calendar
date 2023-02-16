@@ -745,6 +745,34 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@fullcalendar/core@npm:^6.1.4":
+  version: 6.1.4
+  resolution: "@fullcalendar/core@npm:6.1.4"
+  dependencies:
+    preact: ^10.0.5
+  checksum: 3c659bbaf814a1f084ddd3e2eeaf68bb48f268a36560abb399c4aa29a40d6017c5bb1cd87c43664f333a1f6682c32b6a85ffb661538ea0faa78a1c119760a381
+  languageName: node
+  linkType: hard
+
+"@fullcalendar/daygrid@npm:^6.1.4":
+  version: 6.1.4
+  resolution: "@fullcalendar/daygrid@npm:6.1.4"
+  peerDependencies:
+    "@fullcalendar/core": ~6.1.4
+  checksum: 24b3c6e521c5e5288cb05d34e080daace1138b4b421a5dd059938a8c9b7730374b7f07908984b124d48e810276a3c24f1e1c7b6080d375ca80e4d7ef387d7774
+  languageName: node
+  linkType: hard
+
+"@fullcalendar/vue3@npm:^6.1.4":
+  version: 6.1.4
+  resolution: "@fullcalendar/vue3@npm:6.1.4"
+  peerDependencies:
+    "@fullcalendar/core": ~6.1.4
+    vue: ^3.0.11
+  checksum: 3e11102fbf09e2e62d52c03f7fc42435c816faeefd57c1e551271af6bfdeb52be7380b6d9b199e652a742626c17a21227092b83039f30a48f76d9d26ffae9beb
+  languageName: node
+  linkType: hard
+
 "@gar/promisify@npm:^1.1.3":
   version: 1.1.3
   resolution: "@gar/promisify@npm:1.1.3"
@@ -928,6 +956,32 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@nuxt/kit@npm:3.0.0":
+  version: 3.0.0
+  resolution: "@nuxt/kit@npm:3.0.0"
+  dependencies:
+    "@nuxt/schema": 3.0.0
+    c12: ^1.0.1
+    consola: ^2.15.3
+    defu: ^6.1.1
+    globby: ^13.1.2
+    hash-sum: ^2.0.0
+    ignore: ^5.2.0
+    jiti: ^1.16.0
+    knitwork: ^1.0.0
+    lodash.template: ^4.5.0
+    mlly: ^1.0.0
+    pathe: ^1.0.0
+    pkg-types: ^1.0.1
+    scule: ^1.0.0
+    semver: ^7.3.8
+    unctx: ^2.1.0
+    unimport: ^1.0.1
+    untyped: ^1.0.0
+  checksum: 491ef6f518e0ec877892d92937666f6a8fa39e0e9a3004f20c9715c7b65bdc9f3d5018029cb516f452b436661c0675e54bd0940acfadfd87c9f1e33cb20312bb
+  languageName: node
+  linkType: hard
+
 "@nuxt/kit@npm:3.2.0, @nuxt/kit@npm:^3.0.0":
   version: 3.2.0
   resolution: "@nuxt/kit@npm:3.2.0"
@@ -951,6 +1005,26 @@ __metadata:
     unimport: ^2.2.4
     untyped: ^1.2.2
   checksum: d20bdbd25a9da97fac81504735692123e1c4c439aee0c8777cd5f4338beace7f335169110796f21150ae43120e7290b23d446eb9a6ad5dad0208453b1e9f32fd
+  languageName: node
+  linkType: hard
+
+"@nuxt/schema@npm:3.0.0":
+  version: 3.0.0
+  resolution: "@nuxt/schema@npm:3.0.0"
+  dependencies:
+    c12: ^1.0.1
+    create-require: ^1.1.1
+    defu: ^6.1.1
+    jiti: ^1.16.0
+    pathe: ^1.0.0
+    pkg-types: ^1.0.1
+    postcss-import-resolver: ^2.0.0
+    scule: ^1.0.0
+    std-env: ^3.3.1
+    ufo: ^1.0.0
+    unimport: ^1.0.1
+    untyped: ^1.0.0
+  checksum: 85d94dae5ad68ba03716a45cd1eff8698d601741f71ca9fc08801d0151f19369342887827a71c9ac62f2e6f5cda0e152f25ca622638bd81fa2cd2824fcbd6449
   languageName: node
   linkType: hard
 
@@ -1107,6 +1181,13 @@ __metadata:
   version: 1.5.0
   resolution: "@planetscale/database@npm:1.5.0"
   checksum: 02e9478360b4a4eca6657897f1d2f6c685e62b6afc191bf2cbc0fc0f548815593f745cc14bc8e68505b94627170ea8c654690d2f58fb9dc42e86cd0106da3636
+  languageName: node
+  linkType: hard
+
+"@popperjs/core@npm:^2.11.6":
+  version: 2.11.6
+  resolution: "@popperjs/core@npm:2.11.6"
+  checksum: 47fb328cec1924559d759b48235c78574f2d71a8a6c4c03edb6de5d7074078371633b91e39bbf3f901b32aa8af9b9d8f82834856d2f5737a23475036b16817f0
   languageName: node
   linkType: hard
 
@@ -1331,6 +1412,13 @@ __metadata:
   version: 7.3.13
   resolution: "@types/semver@npm:7.3.13"
   checksum: 00c0724d54757c2f4bc60b5032fe91cda6410e48689633d5f35ece8a0a66445e3e57fa1d6e07eb780f792e82ac542948ec4d0b76eb3484297b79bd18b8cf1cb0
+  languageName: node
+  linkType: hard
+
+"@types/web-bluetooth@npm:^0.0.16":
+  version: 0.0.16
+  resolution: "@types/web-bluetooth@npm:0.0.16"
+  checksum: f68a630d062202a25c46d48686ebae1cf429dc70b4578fcf13b8357b2db63e4aedfb6f6d752bd388366be46ebd19c1c9de45f8a15c2631bb79e904fdfc454f94
   languageName: node
   linkType: hard
 
@@ -1705,6 +1793,18 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@vueuse/core@npm:^9.11.1":
+  version: 9.12.0
+  resolution: "@vueuse/core@npm:9.12.0"
+  dependencies:
+    "@types/web-bluetooth": ^0.0.16
+    "@vueuse/metadata": 9.12.0
+    "@vueuse/shared": 9.12.0
+    vue-demi: "*"
+  checksum: bbbbd0a60f3cbda8e116c721f67319af42247af607d997e58d1f860660148ecbf58f90b8b3f38c6ecf87bc37a1a330b280050d883d79579ed72abf3b286b88cb
+  languageName: node
+  linkType: hard
+
 "@vueuse/head@npm:^1.0.25":
   version: 1.0.26
   resolution: "@vueuse/head@npm:1.0.26"
@@ -1716,6 +1816,22 @@ __metadata:
   peerDependencies:
     vue: ">=2.7 || >=3"
   checksum: 58654a6ebfbe18b87fcac10ee62ed30ad46b25fe74148c51d843cf544f6ba09399ed69127435f3bc19a29a239a4733c8134d068ae729cd2d15c6f0a72b547e6a
+  languageName: node
+  linkType: hard
+
+"@vueuse/metadata@npm:9.12.0":
+  version: 9.12.0
+  resolution: "@vueuse/metadata@npm:9.12.0"
+  checksum: ce732fbf313e3a3ed4ebddcace4cca05907c297103a20bc7e3e25cfb58dbce4b8e6b5d6a68a41922a821e07fa627321534068f9d494190d0bc5b95f1c29e8dcf
+  languageName: node
+  linkType: hard
+
+"@vueuse/shared@npm:9.12.0":
+  version: 9.12.0
+  resolution: "@vueuse/shared@npm:9.12.0"
+  dependencies:
+    vue-demi: "*"
+  checksum: b359e78dddef960c7456c0bad7427ad255239740ae02485ac64ed5df3f58387253647cf243a0839f9eb014e91f315db850745ab5930e22a0c52434d1619bc04e
   languageName: node
   linkType: hard
 
@@ -2069,6 +2185,36 @@ __metadata:
   languageName: node
   linkType: hard
 
+"bootstrap-icons@npm:^1.10.3":
+  version: 1.10.3
+  resolution: "bootstrap-icons@npm:1.10.3"
+  checksum: bef7f83ce09f0ae0b2a92d61b69f3c6d04ba2307e9051ab3f175613837e0dc5252d22e2b3a0403b59995be4e06ebe00f17d0335be6f2cffdbfdbefa9268b6abd
+  languageName: node
+  linkType: hard
+
+"bootstrap-vue-next@npm:^0.7.3":
+  version: 0.7.3
+  resolution: "bootstrap-vue-next@npm:0.7.3"
+  dependencies:
+    "@nuxt/kit": 3.0.0
+    "@vueuse/core": ^9.11.1
+  peerDependencies:
+    "@popperjs/core": ^2.11.6
+    bootstrap: ^5.2.3
+    vue: ^3.2.45
+  checksum: c8c51307589545825ffe8aa93b753bc421af81e561f835e20b6ecbabbaedd4f5cd2aee7d4153361a1fc40e20ef4c278a508444a7602c85ca014a49637c0bf0b4
+  languageName: node
+  linkType: hard
+
+"bootstrap@npm:^5.2.3":
+  version: 5.2.3
+  resolution: "bootstrap@npm:5.2.3"
+  peerDependencies:
+    "@popperjs/core": ^2.11.6
+  checksum: 0211805dec6a190c0911d142966df30fdb4b4139a04cc6c23dd83c6045ea3cb0a966b360ab2e701e7b3ad96ff01e05fdc0914be97b41bd876b11e457a8bdc6a3
+  languageName: node
+  linkType: hard
+
 "brace-expansion@npm:^1.1.7":
   version: 1.1.11
   resolution: "brace-expansion@npm:1.1.11"
@@ -2161,7 +2307,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"c12@npm:^1.1.0":
+"c12@npm:^1.0.1, c12@npm:^1.1.0":
   version: 1.1.0
   resolution: "c12@npm:1.1.0"
   dependencies:
@@ -2288,7 +2434,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"chokidar@npm:^3.5.1, chokidar@npm:^3.5.3":
+"chokidar@npm:>=3.0.0 <4.0.0, chokidar@npm:^3.5.1, chokidar@npm:^3.5.3":
   version: 3.5.3
   resolution: "chokidar@npm:3.5.3"
   dependencies:
@@ -4595,6 +4741,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"immutable@npm:^4.0.0":
+  version: 4.2.4
+  resolution: "immutable@npm:4.2.4"
+  checksum: 3be84eded37b05e65cad57bfba630bc1bf170c498b7472144bc02d2650cc9baef79daf03574a9c2e41d195ebb55a1c12c9b312f41ee324b653927b24ad8bcaa7
+  languageName: node
+  linkType: hard
+
 "import-fresh@npm:^3.0.0, import-fresh@npm:^3.2.1":
   version: 3.3.0
   resolution: "import-fresh@npm:3.3.0"
@@ -6755,6 +6908,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"preact@npm:^10.0.5":
+  version: 10.12.1
+  resolution: "preact@npm:10.12.1"
+  checksum: 0de99f477563ab7f94a0f964952ad216375973c0dcd9eb49881f8eb5effc5ed6948da062548c87d5bb0d82f1a1e516b649020e760eab3a0503dfdd8e64d34a26
+  languageName: node
+  linkType: hard
+
 "prelude-ls@npm:^1.2.1":
   version: 1.2.1
   resolution: "prelude-ls@npm:1.2.1"
@@ -6856,7 +7016,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"puppeteer-core@npm:19.7.1, puppeteer-core@npm:^19.7.1":
+"puppeteer-core@npm:19.7.1":
   version: 19.7.1
   resolution: "puppeteer-core@npm:19.7.1"
   dependencies:
@@ -7200,10 +7360,17 @@ __metadata:
     "@fortawesome/free-regular-svg-icons": ^6.2.1
     "@fortawesome/free-solid-svg-icons": ^6.2.1
     "@fortawesome/vue-fontawesome": ^3.0.3
+    "@fullcalendar/core": ^6.1.4
+    "@fullcalendar/daygrid": ^6.1.4
+    "@fullcalendar/vue3": ^6.1.4
     "@nuxtjs/eslint-config-typescript": ^12.0.0
+    "@popperjs/core": ^2.11.6
     "@types/node": ^18.11.18
     "@typescript-eslint/eslint-plugin": ^5.49.0
     "@typescript-eslint/parser": ^5.49.0
+    bootstrap: ^5.2.3
+    bootstrap-icons: ^1.10.3
+    bootstrap-vue-next: ^0.7.3
     eslint: ^8.32.0
     eslint-config-prettier: ^8.6.0
     eslint-plugin-nuxt: ^4.0.0
@@ -7213,7 +7380,7 @@ __metadata:
     nuxt: ^3.2.0
     prettier: ^2.8.3
     puppeteer: ^19.7.1
-    puppeteer-core: ^19.7.1
+    sass: ^1.58.1
     typescript: ^4.9.4
     vite-plugin-eslint: ^1.8.1
     vue-eslint-parser: ^9.1.0
@@ -7284,6 +7451,19 @@ __metadata:
   version: 2.1.2
   resolution: "safer-buffer@npm:2.1.2"
   checksum: cab8f25ae6f1434abee8d80023d7e72b598cf1327164ddab31003c51215526801e40b66c5e65d658a0af1e9d6478cadcb4c745f4bd6751f97d8644786c0978b0
+  languageName: node
+  linkType: hard
+
+"sass@npm:^1.58.1":
+  version: 1.58.1
+  resolution: "sass@npm:1.58.1"
+  dependencies:
+    chokidar: ">=3.0.0 <4.0.0"
+    immutable: ^4.0.0
+    source-map-js: ">=0.6.2 <2.0.0"
+  bin:
+    sass: sass.js
+  checksum: ff079887d906b5c0dde99084d14ac36336d238c0c07935ff6381bad68f05de212c1ff12657ac1e8a0533523cd7a393126facdc2508d758e7d5700344a0e6ea51
   languageName: node
   linkType: hard
 
@@ -7471,7 +7651,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"source-map-js@npm:^1.0.2":
+"source-map-js@npm:>=0.6.2 <2.0.0, source-map-js@npm:^1.0.2":
   version: 1.0.2
   resolution: "source-map-js@npm:1.0.2"
   checksum: c049a7fc4deb9a7e9b481ae3d424cc793cb4845daa690bc5a05d428bf41bf231ced49b4cf0c9e77f9d42fdb3d20d6187619fc586605f5eabe995a316da8d377c
@@ -8062,7 +8242,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"unctx@npm:^2.1.1":
+"unctx@npm:^2.1.0, unctx@npm:^2.1.1":
   version: 2.1.2
   resolution: "unctx@npm:2.1.2"
   dependencies:
@@ -8095,6 +8275,25 @@ __metadata:
     "@unhead/shared": 1.0.22
     hookable: ^5.4.2
   checksum: 188ce2eb60fef843d76dd732e67c20d3c73fa4442a1221828656a3cf7278dfadaaf5dd358bffde1f33b3973641684baa8d47a8b993c80e0888c4524ba28bf62a
+  languageName: node
+  linkType: hard
+
+"unimport@npm:^1.0.1":
+  version: 1.3.0
+  resolution: "unimport@npm:1.3.0"
+  dependencies:
+    "@rollup/pluginutils": ^5.0.2
+    escape-string-regexp: ^5.0.0
+    fast-glob: ^3.2.12
+    local-pkg: ^0.4.3
+    magic-string: ^0.27.0
+    mlly: ^1.1.0
+    pathe: ^1.0.0
+    pkg-types: ^1.0.1
+    scule: ^1.0.0
+    strip-literal: ^1.0.0
+    unplugin: ^1.0.1
+  checksum: 6a2070ea8800ef69e9c61a0342e8e1b2a674007e936d7b147afd1466bdb5b642e736084f4867f6ea341c9d9c8451a6e5b238bcb6fa4480d4ce5f8461fb5aa3c2
   languageName: node
   linkType: hard
 
@@ -8179,7 +8378,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"untyped@npm:^1.2.2":
+"untyped@npm:^1.0.0, untyped@npm:^1.2.2":
   version: 1.2.2
   resolution: "untyped@npm:1.2.2"
   dependencies:
@@ -8418,6 +8617,22 @@ __metadata:
   dependencies:
     ufo: ^1.0.1
   checksum: 5db31fc1792374cec9aa213fdb82a9cc0e286c628a032ce5c628366279a894c5432aba1192412051f6b7a69296287e3eec12411c211b8bcf11321825885dc7c7
+  languageName: node
+  linkType: hard
+
+"vue-demi@npm:*":
+  version: 0.13.11
+  resolution: "vue-demi@npm:0.13.11"
+  peerDependencies:
+    "@vue/composition-api": ^1.0.0-rc.1
+    vue: ^3.0.0-0 || ^2.6.0
+  peerDependenciesMeta:
+    "@vue/composition-api":
+      optional: true
+  bin:
+    vue-demi-fix: bin/vue-demi-fix.js
+    vue-demi-switch: bin/vue-demi-switch.js
+  checksum: 0fbe9bf8ab7fe498ffa2bbd0cfc8f6f43a6bbaa5eda3e20ef1b70dca7c8b0ddb216a7ff2f632b694fe0735805638975abb441c621ec0bd2e6d4656353f316c15
   languageName: node
   linkType: hard
 

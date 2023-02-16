@@ -2,12 +2,15 @@
 /* eslint-disable @typescript-eslint/no-extra-semi */
 import { OutputOptions } from "rollup"
 import eslintPlugin from "vite-plugin-eslint"
+import EIBrowserInstance from "./EIBrowserInstance"
 
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
-  nitro: {
-    plugins: ["@/plugins/nitro_puppeteer"]
-  },
+  modules: ["bootstrap-vue-next/nuxt"],
+  css: [
+    "bootstrap/dist/css/bootstrap.min.css",
+    "bootstrap-icons/font/bootstrap-icons.css"
+  ],
   build: {
     transpile: ["wait"]
   },
@@ -20,21 +23,20 @@ export default defineNuxtConfig({
         ;(
           clientConfig.build!.rollupOptions!.output as OutputOptions
         ).manualChunks = {
-          "@fortawesome/vue-fontawesome": ["@fortawesome/vue-fontawesome"],
-          "@fortawesome/fontawesome-svg-core": [
-            "@fortawesome/fontawesome-svg-core"
-          ],
-          "@fortawesome/free-solid-svg-icons": [
-            "@fortawesome/free-solid-svg-icons"
-          ],
-          "@fortawesome/free-regular-svg-icons": [
-            "@fortawesome/free-regular-svg-icons"
-          ],
-          "@fortawesome/free-brands-svg-icons": [
-            "@fortawesome/free-brands-svg-icons"
-          ]
+          bootstrapVue: ["bootstrapVue"],
+          bootstrapVueIcons: ["bootstrap-vue/src/icons"]
         }
       }
+    },
+    "nitro:init": async () => {
+      /* ;(async () => {
+        const instance = new EIBrowserInstance()
+        /* await instance.run()
+
+        await instance.screenshot() 
+      })() */
+
+      console.log("tests")
     }
   }
 })
